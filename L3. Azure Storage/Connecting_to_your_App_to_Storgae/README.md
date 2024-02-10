@@ -10,7 +10,7 @@ If you already closed down your database and blob storage, you'll want to go bac
 2. Next, add the necessary environment variables to connect to the SQL database in `config.py`.
 3. Then, add the necessary environment variables to connect to the Blob storage container in `config.py`.
 4. Add the necessary code in `models.py` to work with the `BlobServiceClient` to upload new images and delete any images that are replaced.
-4. Run the app on your local machine, and check that the animals are correctly populated from the SQL database.
+4. Run the app on your local machine, and check that the animals are correctly populated from the SQL database. Make sure you add the data from the scripts in the sql_scripts directory here to the database. 
 5. Add some images for each animal. You should be able to check back in your blob container and see that new images were added, and they should populate back to the main page.
 
 While it's not a required part of this exercise, you can also try to deploy the app using either
